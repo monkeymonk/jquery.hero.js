@@ -2,15 +2,15 @@
 	var defaults = {
 		debug: false
 		, allowedKeys: 'azertyui'
-		, gameTime: 20 // The gametime (in seconds)
-		, speed: 5000 // Speed of the dropping element
+		, gameTime: 20 // in second
+		, speed: 5000 // dropping speed
 		, maxMiss: 0 // number of miss before gameover (0 mean no gameover)
-		, amountMiss: 5 // Amount of missed orbs before it slows back
+		, amountMiss: 5 // amount of missed before it slows back
 		
 		, container: '#hero-fall'
 		, elem: 'hero-elem'
 		
-		, newElemTime: 1300 // Time when a new element gets created
+		, newElemTime: 1300
 		
 		, correctMinTop: 490
 		, correctMaxTop: 520
